@@ -34,7 +34,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6B52C27B2DB3FEE200E97B65 /* Exceptions for "16. Setting up (UIKit)" folder in "16. Setting up (UIKit)" target */ = {
+		6B52C27B2DB3FEE200E97B65 /* Exceptions for "22. Project 3 (technical project - Social media)" folder in "16. Setting up (UIKit)" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -44,12 +44,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6B52C26B2DB3FEDD00E97B65 /* 16. Setting up (UIKit) */ = {
+		6B52C26B2DB3FEDD00E97B65 /* 22. Project 3 (technical project - Social media) */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				6B52C27B2DB3FEE200E97B65 /* Exceptions for "16. Setting up (UIKit)" folder in "16. Setting up (UIKit)" target */,
+				6B52C27B2DB3FEE200E97B65 /* Exceptions for "22. Project 3 (technical project - Social media)" folder in "16. Setting up (UIKit)" target */,
 			);
-			path = "16. Setting up (UIKit)";
+			path = "22. Project 3 (technical project - Social media)";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				6B52C2A02DB3FF0700E97B65 /* Content */,
-				6B52C26B2DB3FEDD00E97B65 /* 16. Setting up (UIKit) */,
+				6B52C26B2DB3FEDD00E97B65 /* 22. Project 3 (technical project - Social media) */,
 				6B52C26A2DB3FEDD00E97B65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6B52C26B2DB3FEDD00E97B65 /* 16. Setting up (UIKit) */,
+				6B52C26B2DB3FEDD00E97B65 /* 22. Project 3 (technical project - Social media) */,
 			);
 			name = "16. Setting up (UIKit)";
 			packageProductDependencies = (
