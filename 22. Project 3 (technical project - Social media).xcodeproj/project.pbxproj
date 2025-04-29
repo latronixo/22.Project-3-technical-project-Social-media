@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6B52C2642DB3FEDD00E97B65 /* Build configuration list for PBXProject "16. Setting up (UIKit)" */;
+			buildConfigurationList = 6B52C2642DB3FEDD00E97B65 /* Build configuration list for PBXProject "22. Project 3 (technical project - Social media)" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -367,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B52C2642DB3FEDD00E97B65 /* Build configuration list for PBXProject "16. Setting up (UIKit)" */ = {
+		6B52C2642DB3FEDD00E97B65 /* Build configuration list for PBXProject "22. Project 3 (technical project - Social media)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B52C27F2DB3FEE200E97B65 /* Debug */,
