@@ -17,6 +17,8 @@ class ViewController: UITableViewController {
         title = "Storm Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
+        
         //создаем константу - файловый менеджер
         let fm = FileManager.default
         //создаем константу - путь к ресурсам нашего приложения
@@ -53,6 +55,14 @@ class ViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
         cell.textLabel?.text = pictures[indexPath.row]
         return cell
+    }
+    
+    //событие нажатия на кнопку поделиться
+    @objc func shareTapped () {
+        let vc = UIActivityViewController(activityItems: ["Мое приложение Project 3 - Images", "Попробуйте, очень классная прила!"], applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        
+        present(vc, animated: true)
     }
 
 }
